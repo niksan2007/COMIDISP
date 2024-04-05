@@ -2,6 +2,8 @@
 
 Для запуска:
 В cmd: regsrv32 Server.dll используется для регистрации компонентов (DLL) в системном реестре Windows.
+Server /RegServer
+
 После этого SERVER.EXE и DCLIENT.EXE
 
 
