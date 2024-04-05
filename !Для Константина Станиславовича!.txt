@@ -1,0 +1,18 @@
+Здравствуйте!
+
+Для запуска:
+В cmd: regsrv32 Server.dll используется для регистрации компонентов (DLL) в системном реестре Windows.
+После этого SERVER.EXE и DCLIENT.EXE
+
+
+
+DCLIENT - наш клиент работающий с IDispatch 
+CMPNT - реализация компонента в том числе IDispatch
+CFACTORY - фабрика
+CUNKNKOWN - Неделегируемая версия интерфейса IUnknown в соответвии с примером из книги
+UTIL - утилиты для вывода сообщений
+REGISTER - регистрации и удаления компонентов в реестре операционной системы
+SERVER - CFactoryData для регистрации компонента в реестре Windows при его создании
+
+Пример по которому была сделана работа https://github.com/tpn/inside-com/tree/master/CODE/CHAP11
+
